@@ -53,13 +53,22 @@
         const scoreDisplay = document.getElementById('score');
         const gameArea = document.getElementById('gameArea'); // Use a container for clicks
 
+        // // --- GAME CONSTANTS ---
+        // const GRAVITY = 0.5;
+        // const JUMP_STRENGTH = -5; // Increased jump strength slightly
+        // const PIPE_SPEED = 1;
+        // const GAP_HEIGHT = 120; 
+        // const PIPE_WIDTH = 40;
+        // const GROUND_Y = canvas.height - 30;
+        // const BIRD_SIZE = 20;
+
         // --- GAME CONSTANTS ---
-        const GRAVITY = 0.5;
-        const JUMP_STRENGTH = -5; // Increased jump strength slightly
+        const GRAVITY = 0.2;
+        const JUMP_STRENGTH = -3; // Increased jump strength slightly
         const PIPE_SPEED = 1;
-        const GAP_HEIGHT = 120; 
-        const PIPE_WIDTH = 40;
-        const GROUND_Y = canvas.height - 30;
+        const GAP_HEIGHT = 150; 
+        const PIPE_WIDTH = 30;
+        const GROUND_Y = canvas.height - 28;
         const BIRD_SIZE = 20;
 
         // --- GAME STATE VARIABLES ---
